@@ -13,7 +13,8 @@ $(document).ready(function(){
 
   	// Starts a new game from scratch
   	newGame();
-
+	$(".overlay").show();
+	
 	/*--- Display information modal box ---*/
   	$(".what").click(function(){
     	$(".overlay").fadeIn(1000);
